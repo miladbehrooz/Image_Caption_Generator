@@ -1,0 +1,10 @@
+gtts==2.2.4
+matplotlib==3.4.3
+nltk==3.6.5
+numpy==1.20.3
+requests==2.26.0
+streamlit==1.9.0
+tensorflow==2.6.2
+tqdm==4.64.0
+ 
+
