@@ -1,8 +1,15 @@
 # Image Caption Generator App 
 ![demo](demo.gif)
-- Built model based on CNN and LSTM to generate captions for images automatically
- - Trained deep learning model on Flickr8K dataset. 
-- Built an image caption generator  web application with Streamlit based on the deep learning model  
+
+In this project, the image caption generator using CNN-LSTM encoder-decoder model was implemented. The image features were extracted from the CNN model and then those were fed into the LSTM model which is responsible for generating the image captions.
+Project workflow consists of following steps:
+
+- Created features for each image using VGG16 pre-trained CNN.
+-  Prepared text data which involves text cleaning and text tokenization.
+- Transformed image features and text data into input-output pairs of data for training CNN-LSTM model.
+- Built, trained and evaluated an encoder-decoder neural network.
+- Built an image caption generator web application with Streamlit based on the CNN-LSTM model.
+
 
 ## Usage 
 - Clone the git repository: ```git clone https://github.com/miladbehrooz/Image_Caption_Generator.git```
